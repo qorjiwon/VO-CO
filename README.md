@@ -57,4 +57,4 @@ step4는 실행하지 않고 넘어갑니다.
 step5와 step6을 실행합니다.
 step5에서는 모델의 진척 상황을 시각화합니다. 이전 모델들도 같이 넣어두면 추이를 확인할 수 있습니다. 참고하세요.
 
-Diff-SVC 모델 사용 가이드 원본 👉https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14
+👉[Diff-SVC 모델 사용 가이드 원본 바로가기](https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14)
