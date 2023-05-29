@@ -1,23 +1,23 @@
-# Voice-Conversion을 이용한 내 가수의 커버곡 듣기
+# 🎤Voice-Conversion을 이용한 내 가수의 커버곡 듣기
 
 ## A. Diff-SVC 사용하기
-### [코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
+### 👉[코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
 
 ### step.0 구글 드라이브에 데이터 업로드하기
-<span style="color:blue">구글 드라이브</span>에 <span style="color:blue">zip</span>의 형태로 업로드합니다.
+**구글 드라이브**에**zip**의 형태로 업로드합니다.
 코랩에 직접 업로드하면 시간이 굉장히 오래 걸립니다.
 먼저 구글 드라이브에 파일을 업로드 한 후에 드라이브를 마운트 하는 편이 훨씬 빠르고, 이후에도 계속 사용할 수 있기 때문에 유용합니다.
 
-그다음 코랩으로 돌아와 <span style="color:blue">GPU 타입을 체크</span>하고 드라이브를 마운트 해주세요.
+그다음 코랩으로 돌아와 **GPU 타입을 체크**하고 드라이브를 마운트 해주세요.
 <이미지>
 
 ### step1.
 여기서 step은 코랩에 적혀있는 단계를 따릅니다. 
-반드시 <u>agree에 체크</u>하고 실행하세요. 그렇지 않으면 모델이 다운로드가 되지 않습니다.
+⚠️반드시 <u>agree에 체크</u>하고 실행하세요. 그렇지 않으면 모델이 다운로드가 되지 않습니다.
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/425ef103-3a43-488d-896e-29a74c56606c)
 
 
-실행시키고 난 후 다음과 같은 Exception이 발생하면서 <span style="color:red">런타임 에러</span>가 발생합니다. 하지만 이는 <span style="color:blue">에러가 아니니</span> **그냥 넘어가세요.**
+실행시키고 난 후 다음과 같은 Exception이 발생하면서 **런타임 에러**가 발생합니다. 하지만 이는 **에러가 아니니** <u>그냥 넘어가세요.</u>
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/ebff83c1-82b0-42ee-8094-52acf77959a3)
 한 번에 뒤에 셀들까지 실행시켰을 경우, 해당 셀을 실행시키고 나면 뒤에 셀들이 중단되니 에러가 난 후 뒤에 셀들을 잊지 말고 실행해 주세요.
 
@@ -57,4 +57,6 @@ step4는 실행하지 않고 넘어갑니다.
 step5와 step6을 실행합니다.
 step5에서는 모델의 진척 상황을 시각화합니다. 이전 모델들도 같이 넣어두면 추이를 확인할 수 있습니다. 참고하세요.
 
+***
+---
 👉[Diff-SVC 모델 사용 가이드 원본](https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14)
