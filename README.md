@@ -58,5 +58,20 @@ step4는 실행하지 않고 넘어갑니다.
 step5와 step6을 실행합니다.
 step5에서는 모델의 진척 상황을 시각화합니다. 이전 모델들도 같이 넣어두면 추이를 확인할 수 있습니다. 참고하세요.
 
+## C. How to laod the model 
+### 0. step1까지 진행해주세요
+
+### 1. step6
+model_path에는 로드할 모델의 경로를
+config_path에는 config.yaml 파일의 경로를
+wav_in에는 목소리를 덮어씌울 reference voice의 경로를 입력해주세요. (사진에서는 마크툽 목소리로 성시경의 노래를 덧씌울때 성시경의 목소리가 reference voice)
+
+crepe는 좀 더 안정적인 음성을 출력하지만, 발음이 뭉개질 수 있습니다. 경험적으로 출력된 음성에 reference voice가 과도하게 섞이면 crepe를 체크하면 좀 더 나은 결과가 나옵니다. 
+pe는 좀 더 자연스러운 목소리가 출력되지만, pitch가 맞지 않는 결과물이 출력될 수 있습니다.
+![image](https://github.com/qorjiwon/VO-CO/assets/44426921/41c4eba1-2608-4521-8ec9-23f9e8460614)
+
+결과물은 /content/diff-svc/results에 저장됩니다. 우클릭을 하여 다운로드 받을 수 있습니다.
+![image](https://github.com/qorjiwon/VO-CO/assets/44426921/ee7f52d9-5363-4b01-829f-d0d66231fcd3)
+
 ***
 👉[Diff-SVC 모델 사용 가이드 원본](https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14)
