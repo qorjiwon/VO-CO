@@ -1,5 +1,5 @@
 # 🎤Voice-Conversion을 이용한 내 가수의 커버곡 듣기
-
+----------
 ## A. Diff-SVC 사용하기
 ### 👉[코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
 
@@ -36,20 +36,21 @@ save_dir에 나의 구글 드라이브에 **모델을 저장하고 싶은 경로
 ### step 4~
 이후에는 그냥 실행시키면 됩니다. 전처리 과정도 꽤 오래 걸립니다. (30분 정도) 참고하세요.
 
+----------
 ## B. How to Resume Training 
 
 step 1까지 위를 보고 진행하세요.
 
 ### step2 
 step 2-A를 진행할 겁니다. 우리는 위 단계에서 이미 데이터를 전처리하는 과정을 거쳤고 이를 저장했기 때문에 굳이 시간이 오래 걸리는 전처리 과정을 한 번 더 거칠 이유가 없습니다. 
-preprocessed_data_location에 가수이름_<span style="color:blue">binary_data.7z 파일의 경로</span>를, config_location에는 <span style="color:blue">config_nsf.yaml 파일의 경로</span>를 입력하세요.
+preprocessed_data_location에 가수이름_**binary_data.7z 파일의 경로**를, config_location에는 **config_nsf.yaml 파일의 경로**를 입력하세요.
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/66ca356e-8242-4c2a-80ea-b93f7159d5e6)
 <u>config.yaml이 아니라 con_nsf.yaml입니다.</u> 주의하세요.
 
 **폴더의 이름에 띄어쓰기가 있으면 폴더를 인식 못 할 수도 있습니다. 꼭 확인해 주세요**
 
 ### step3.
-**save_dir**에는 <span style="color:blue">내가 모델을 저장할 경로</span>, **ckpt_directory**에는 가장 최근의 <span style="color:blue">ckpt 파일의 경로</span>를 입력합니다. 데이터 셋의 크기가 1시간 미만으로 작을 때는 endless_ds를 체크합니다.
+**save_dir**에는 **모델을 저장할 경로**, **ckpt_directory**에는 가장 최근의 **ckpt 파일의 경로**를 입력합니다. 데이터 셋의 크기가 1시간 미만으로 작을 때는 endless_ds를 체크합니다.
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/88a06aa5-276d-4406-8c8b-57b45c2dc583)
 
 ### step4~
