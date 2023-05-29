@@ -4,9 +4,7 @@
 ### 👉[코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
 
 ### step.0 구글 드라이브에 데이터 업로드하기
-**구글 드라이브**에**zip**의 형태로 업로드합니다.
-코랩에 직접 업로드하면 시간이 굉장히 오래 걸립니다.
-먼저 구글 드라이브에 파일을 업로드 한 후에 드라이브를 마운트 하는 편이 훨씬 빠르고, 이후에도 계속 사용할 수 있기 때문에 유용합니다.
+**구글 드라이브**에**zip**의 형태로 업로드합니다. 코랩에 직접 업로드하면 시간이 굉장히 오래 걸립니다. 먼저 구글 드라이브에 파일을 업로드 한 후에 드라이브를 마운트 하는 편이 훨씬 빠르고, 이후에도 계속 사용할 수 있기 때문에 유용합니다.
 
 그다음 코랩으로 돌아와 **GPU 타입을 체크**하고 드라이브를 마운트 해주세요.
 
@@ -24,11 +22,11 @@
 
 ### step2.
 이름을 설정하고 이전에 드라이브에 올려둔 데이터 셋의 경로를 복사합니다.
-만약 이 단계에서 코랩이 zip을 찾지 못한다면 zip이 제대로 압축되지 않거나 손상됐을 확률이 큽니다. 다른 프로그램을 이용하여 다시 압축해 보세요. step2-A는 패스합니다.
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/2b6c2333-3935-4360-8851-9319ae6764d9)
+만약 이 단계에서 코랩이 zip을 찾지 못한다면 zip이 제대로 압축되지 않거나 손상됐을 확률이 큽니다. 다른 프로그램을 이용하여 다시 압축해 보세요. step2-A는 패스합니다.
 
 ### step3. 
-save_dir에 나의 구글 드라이브에 **모델을 저장하고 싶은 경로**를 입력하세요. 참고로 모델은 **2000step**마다 저장이 되며, 디렉토리는 따로 설정하지 않을 경우에 <u>checkpoints</u>에 저장이 됩니다. checkpoints는 /content/diff-svc/checkpoints에 있으며 런타임이 종료되면 날아갈 수 있으니 주의하세요.
+save_dir에 나의 구글 드라이브에 **모델을 저장하고 싶은 경로**를 입력하세요. 참고로 모델은 **2000step**마다 저장이 되며, 디렉토리는 따로 설정하지 않을 경우에 checkpoints에 저장이 됩니다. checkpoints는 /content/diff-svc/checkpoints에 있으며 런타임이 종료되면 날아갈 수 있으니 주의하세요.
 
 또 만약 데이터 셋이 1시간 이하로 짧은 경우에 endless_ds를 체크하세요.
 ![image](https://github.com/qorjiwon/VO-CO/assets/82700743/5fc488dc-b400-4112-a329-fcb627eb0d2a)
@@ -61,5 +59,4 @@ step5와 step6을 실행합니다.
 step5에서는 모델의 진척 상황을 시각화합니다. 이전 모델들도 같이 넣어두면 추이를 확인할 수 있습니다. 참고하세요.
 
 ***
----
 👉[Diff-SVC 모델 사용 가이드 원본](https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14)
