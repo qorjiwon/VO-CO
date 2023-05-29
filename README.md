@@ -1,5 +1,6 @@
 <h>🎤Voice-Conversion을 이용한 내 가수의 커버곡 듣기</h>
-----------
+-----------
+
 ## A. Diff-SVC 사용하기
 ### 👉[코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
 
@@ -34,6 +35,7 @@ save_dir에 나의 구글 드라이브에 **모델을 저장하고 싶은 경로
 
 ### step 4~
 이후에는 그냥 실행시키면 됩니다. 전처리 과정도 꽤 오래 걸립니다. (30분 정도) 참고하세요.
+
 
 ----------
 ## B. How to Resume Training 
