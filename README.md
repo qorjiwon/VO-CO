@@ -62,8 +62,8 @@ step5에서는 모델의 진척 상황을 시각화합니다. 이전 모델들�
 ### 0. step1까지 진행해주세요
 
 ### 1. step6
-model_path에는 로드할 모델의 경로를
-config_path에는 config.yaml 파일의 경로를
+model_path에는 로드할 모델의 경로를  
+config_path에는 config.yaml 파일의 경로를  
 wav_in에는 목소리를 덮어씌울 reference voice의 경로를 입력해주세요. (사진에서는 마크툽 목소리로 성시경의 노래를 덧씌울때 성시경의 목소리가 reference voice)
 
 crepe는 좀 더 안정적인 음성을 출력하지만, 발음이 뭉개질 수 있습니다. 경험적으로 출력된 음성에 reference voice가 과도하게 섞이면 crepe를 체크하면 좀 더 나은 결과가 나옵니다. 
