@@ -1,4 +1,4 @@
-# 🎤Voice-Conversion을 이용한 내 가수의 커버곡 듣기
+<h>🎤Voice-Conversion을 이용한 내 가수의 커버곡 듣기</h>
 ----------
 ## A. Diff-SVC 사용하기
 ### 👉[코랩 링크](https://colab.research.google.com/drive/18iQULcuyLp305OebGk_OYt2dZO0F_LOM)
@@ -9,7 +9,6 @@
 먼저 구글 드라이브에 파일을 업로드 한 후에 드라이브를 마운트 하는 편이 훨씬 빠르고, 이후에도 계속 사용할 수 있기 때문에 유용합니다.
 
 그다음 코랩으로 돌아와 **GPU 타입을 체크**하고 드라이브를 마운트 해주세요.
-<이미지>
 
 ### step1.
 여기서 step은 코랩에 적혀있는 단계를 따릅니다. 
