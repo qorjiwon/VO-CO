@@ -67,9 +67,9 @@
 >crepe는 좀 더 안정적인 음성을 출력하지만, 발음이 뭉개질 수 있습니다.  경험적으로 출력된 음성에 reference voice가 과도하게 섞이면 crepe를 체크하면 좀 더 나은 결과가 나옵니다. 
 >pe는 좀 더 자연스러운 목소리가 출력되지만, pitch가 맞지 않는 결과물이 출력될 수 있습니다. 
 >![image](https://github.com/qorjiwon/VO-CO/assets/44426921/41c4eba1-2608-4521-8ec9-23f9e8460614)
-
+>
 >결과물은 /content/diff-svc/results에 저장됩니다. 우클릭을 하여 다운로드 받을 수 있습니다.
 >![image](https://github.com/qorjiwon/VO-CO/assets/44426921/ee7f52d9-5363-4b01-829f-d0d66231fcd3)
 
-***
+---
 👉[Diff-SVC 모델 사용 가이드 원본](https://docs.google.com/document/d/1nA3PfQ-BooUpjCYErU-BHYvg2_NazAYJ0mvvmcjG40o/edit#heading=h.x5mtoparsl14)
